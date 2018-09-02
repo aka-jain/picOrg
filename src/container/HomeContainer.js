@@ -153,7 +153,7 @@ class HomeContainer extends Component {
                     storage.setSessionItem('blocks', JSON.stringify(this.state.blocks));
 
                 } catch (e) {
-                    alert('Oops! Sessionstorage is full. Try empty it.')
+                    alert('Oops! SessionStorage is full. Try empty it.')
                 }
 
                 // update state
