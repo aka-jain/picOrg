@@ -1,0 +1,12 @@
+@import './variables.scss';
+
+.header{
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	z-index: 1;
+	background-color: $dark-gray;
+	padding: 15px 40px;
+	color: white;
+}
