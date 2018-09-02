@@ -142,7 +142,7 @@ class HomeContainer extends Component {
         let reader = new FileReader();
         let file = e.target.files[0];
         if (file.size > 1048576) {
-            alert('Oops! File is too big. Please upload under 1MB')
+            alert('Oops! File is too big or file type is not correct. Please try again')
         } else {
           // checkoing on load of file
             reader.onloadend = () => {
